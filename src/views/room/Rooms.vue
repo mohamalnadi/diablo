@@ -3,9 +3,6 @@
     <v-card-title>
       <div class="d-flex align-center flex-wrap">
         <PageTitle :icon="mdiDomain" :text="`${size(rooms)} Rooms`" />
-        <div class="d-flex ml-auto pl-4 pt-2">
-          <ExportKalturaEvents />
-        </div>
       </div>
       <v-row class="mt-0">
         <v-spacer />
